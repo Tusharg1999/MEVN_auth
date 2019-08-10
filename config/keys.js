@@ -1,3 +1,4 @@
 module.exports={
-    mongoUri:"mongodb://localhost/students"
+    mongoUri:"mongodb://localhost/mevn_auth",
+    secret:"harharmahadev"
 }
