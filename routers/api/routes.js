@@ -82,7 +82,7 @@ router.post('/register',async(req,res)=>{
  * @desc login the user
  * @access private
  */
-router.get('/profile',passport.authenticate('jwt',{session:false}),(req,res)=>{
+router.get('/profile',passport.authenticate('local',{session:false}),(req,res)=>{
 })
 
 module.exports=router

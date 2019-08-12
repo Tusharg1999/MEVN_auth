@@ -20,6 +20,7 @@ db.connect(require("./config/keys").mongoUri,{useNewUrlParser:true})
 
 //routes
 app.use('/api/users',routes)
-// app.use(cors)
+
+// app.use(cors)``
 app.listen(PORT)
 

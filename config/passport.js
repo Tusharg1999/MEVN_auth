@@ -1,4 +1,4 @@
-const jwtstrategy=require('passport').Strategy
+const jwtstrategy=require('passport-local')
 const extractjwt=require('passport-jwt').ExtractJwt
 const user=require('../model/user')
 const key=require('./keys').secret
